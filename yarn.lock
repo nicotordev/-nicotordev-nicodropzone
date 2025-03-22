@@ -121,10 +121,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@nicotordev/fetch-client@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@nicotordev/fetch-client/-/fetch-client-2.0.1.tgz#a4d5da16ea6826c657fd0cb729cc34b1f529dfa4"
-  integrity sha512-ho9NvM3EXKaXIL8FKCRDVAMrqxKoJ1GcoeOvFmQKCO9bvCjk115jyszOiH6nSSqYXo+0sjflBl6XWzrEgcQmAQ==
+"@nicotordev/fetch-client@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@nicotordev/fetch-client/-/fetch-client-3.0.0.tgz#3567cf9945dcbbdfbc2dd2f45b71cac5f3c0444f"
+  integrity sha512-Q/bYAymDxAVMSE7uiKkk5l4BfHv4NwO3IeupYi5mY+dLUKwhg2OB2S+pB8bdyXklg5hKyj5wuAqnEjN3gUbdUg==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

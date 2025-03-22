@@ -4,7 +4,7 @@ import FetchClient from '@nicotordev/fetch-client';
 /**
  * Class to handle uploading, retrieving, and deleting files via a REST API.
  */
-export default class NicoDropzone {
+export class NicoDropzone {
   private post: FetchClient['post'];
   private get: FetchClient['get'];
   private delete: FetchClient['delete'];
@@ -48,7 +48,6 @@ export default class NicoDropzone {
       filesFormData,
       {
         headers: {
-          'Content-Type': 'multipart/form-data',
           'x-api-key': this.apiKey,
         },
       },
@@ -85,3 +84,5 @@ export default class NicoDropzone {
     });
   }
 }
+
+export { NicoDropzoneError } from './errors';
