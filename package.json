@@ -1,6 +1,6 @@
 {
   "name": "@nicotordev/nicodropzone",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Wrapper API de el modulo de dropzone de mi vps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
