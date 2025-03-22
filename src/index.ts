@@ -205,4 +205,13 @@ export default class NicoDropzone {
 
     return data || [];
   }
+
+  public async deleteFile(src: string, preview: string | null) {
+    try {
+      const query = preview ? `?src=${src}&preview=${preview}` : '?src=${src}';
+      await this.nicoDropzoneInstance.delete('/files' + query);
+    } catch (err) {
+      logger.error(errorsConstants.errorPrefixes.NICODROPZONE, err);
+    }
+  }
 }
